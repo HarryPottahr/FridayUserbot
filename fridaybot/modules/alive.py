@@ -41,7 +41,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
-PM_IMG = Config.ALIVE_IMAGE
+PM_IMG = "https://telegra.ph/file/828a49a1b25ae084e47b4.jpg"
 
 
 @friday.on(friday_on_cmd(pattern=r"alive"))
